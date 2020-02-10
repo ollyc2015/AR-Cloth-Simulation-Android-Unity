@@ -1,0 +1,44 @@
+{ 
+   "knotwraps":[
+      { 
+         "name":"Dreamscape Knot Wrap",
+         "src":"https://i.redd.it/wbn9px44vaoz.jpg",
+         "price":"£4.50",
+         "size":[
+            "Small - 45cm x 45cm",
+            "Medium - 70cm x 70cm",
+            "Large - 90cm x 90cm"
+         ]
+      },
+      { 
+         "name":"Lush Life",
+         "src":"http://res.cloudinary.com/lush/image/upload/v1541424745/lush_content/products/main/2018/11/web_lush_life_knot_wrap.jpg",
+         "price":"£4.60",
+         "size":[
+            "Small - 45cm x 45cm",
+            "Medium - 70cm x 70cm",
+            "Large - 90cm x 90cm"
+         ]
+      },
+      {
+         "name":"Lush Koi Knot Wrap",
+         "src":"https://images-na.ssl-images-amazon.com/images/I/61vKQp7ELvL._AC_SY400_.jpg",
+         "price":"£4.80",
+         "size":[
+            "Small - 45cm x 45cm",
+            "Medium - 70cm x 70cm",
+            "Large - 90cm x 90cm"
+         ]
+      },
+      {
+         "name":"Let's Get Physical Knot Wrap",
+         "src":"https://www.lushusa.com/dw/image/v2/BDMQ_PRD/on/demandware.static/-/Sites-lushcosmetics-export/default/dwe2d4d5dc/images/product/208344-lets-get-physical-knot-wrap-1.jpg?sw=400&sh=400",
+         "price":"£4.50",
+         "size":[
+            "Small - 45cm x 45cm",
+            "Medium - 70cm x 70cm",
+            "Large - 90cm x 90cm"
+         ]
+      }
+   ]
+}
