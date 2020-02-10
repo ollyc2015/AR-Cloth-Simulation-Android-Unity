@@ -1,0 +1,5 @@
+include ':app'
+rootProject.name='unity_android_shopping_app'
+
+include ':unityLibrary'
+project(':unityLibrary').projectDir=new File('..\\UnityProject\\androidBuild\\unityLibrary')
