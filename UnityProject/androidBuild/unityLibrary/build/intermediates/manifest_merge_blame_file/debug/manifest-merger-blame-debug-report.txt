@@ -8,110 +8,110 @@
 8
 9    <uses-sdk
 10        android:minSdkVersion="24"
-10-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+10-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
 11        android:targetSdkVersion="28" />
-11-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+11-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
 12
 13    <uses-feature android:glEsVersion="0x00020000" />
-13-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:3-52
-13-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:17-49
+13-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:3-52
+13-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:17-49
 14
 15    <uses-permission android:name="android.permission.CAMERA" />
-15-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:17:3-63
-15-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:17:20-60
+15-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:17:3-63
+15-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:17:20-60
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:3-65
-16-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:20-62
+16-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:3-65
+16-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:20-62
 17    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
-17-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:19:3-84
-17-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:19:20-81
+17-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:19:3-84
+17-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:19:20-81
 18
 19    <uses-feature
-19-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:3-88
+19-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:3-88
 20        android:name="android.hardware.touchscreen"
-20-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:17-60
+20-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:17-60
 21        android:required="false" />
-21-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:61-85
+21-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:61-85
 22    <uses-feature
-22-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:21:3-99
+22-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:21:3-99
 23        android:name="android.hardware.touchscreen.multitouch"
-23-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:21:17-71
+23-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:21:17-71
 24        android:required="false" />
-24-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:21:72-96
+24-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:21:72-96
 25    <uses-feature
-25-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:22:3-108
+25-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:22:3-108
 26        android:name="android.hardware.touchscreen.multitouch.distinct"
-26-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:22:17-80
+26-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:22:17-80
 27        android:required="false" />
-27-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:22:81-105
+27-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:22:81-105
 28
 29    <application android:isGame="true" >
-29-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:4:3-15:17
-29-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:4:16-37
+29-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:4:3-15:17
+29-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:4:16-37
 30        <activity
-30-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:5-8:16
+30-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:5-8:16
 31            android:name="com.unity3d.player.UnityPlayerActivity"
-31-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:15-68
+31-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:15-68
 32            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-32-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:182-363
+32-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:182-363
 33            android:hardwareAccelerated="false"
-33-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:364-399
+33-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:364-399
 34            android:launchMode="singleTask"
-34-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:150-181
+34-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:150-181
 35            android:screenOrientation="fullSensor"
-35-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:111-149
+35-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:111-149
 36            android:theme="@style/UnityThemeSelector" >
-36-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:69-110
+36-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:69-110
 37            <meta-data
-37-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:7-82
+37-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:7-82
 38                android:name="unityplayer.UnityActivity"
-38-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:18-58
+38-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:18-58
 39                android:value="true" />
-39-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:59-79
+39-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:59-79
 40            <meta-data
-40-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:7-78
+40-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:7-78
 41                android:name="android.notch_support"
-41-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:18-54
+41-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:18-54
 42                android:value="true" />
-42-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:55-75
+42-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:55-75
 43        </activity>
 44
 45        <meta-data
-45-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:5-73
+45-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:5-73
 46            android:name="unity.tango-enable"
-46-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:16-49
+46-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:16-49
 47            android:value="True" />
-47-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:50-70
+47-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:50-70
 48        <meta-data
-48-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:5-88
+48-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:5-88
 49            android:name="unityplayer.SkipPermissionsDialog"
-49-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:16-64
+49-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:16-64
 50            android:value="true" />
-50-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:65-85
+50-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:65-85
 51        <meta-data
-51-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:5-69
+51-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:5-69
 52            android:name="unity.splash-mode"
-52-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:16-48
+52-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:16-48
 53            android:value="0" />
-53-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:49-66
+53-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:49-66
 54        <meta-data
-54-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:5-74
+54-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:5-74
 55            android:name="unity.splash-enable"
-55-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:16-50
+55-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:16-50
 56            android:value="True" />
-56-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:51-71
+56-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:51-71
 57        <meta-data
-57-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:5-81
+57-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:5-81
 58            android:name="notch.config"
-58-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:16-43
+58-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:16-43
 59            android:value="portrait|landscape" />
-59-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:44-78
+59-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:44-78
 60        <meta-data
-60-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:5-101
+60-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:5-101
 61            android:name="unity.build-id"
-61-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:16-45
+61-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:16-45
 62            android:value="42070cc0-1640-42de-b360-440e8a11ee0d" />
-62-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:46-98
+62-->C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:46-98
 63    </application>
 64
 65</manifest>

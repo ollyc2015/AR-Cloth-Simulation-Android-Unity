@@ -1,139 +1,139 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-23:12
-INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-23:12
-INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-23:12
-INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-23:12
-INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-23:12
-INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-23:12
-INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-23:12
+ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-23:12
+INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-23:12
+INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-23:12
+INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-23:12
+INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-23:12
+INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-23:12
+INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-23:12
 	package
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:70-98
-		INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:70-98
+		INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-23:12
-		INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-23:12
+		INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:99-145
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:99-145
 	android:versionCode
-		INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-23:12
-		INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:1-23:12
+		INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:11-69
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:3:11-69
 application
-ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:4:3-15:17
+ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:4:3-15:17
 	android:isGame
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:4:16-37
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:4:16-37
 activity#com.unity3d.player.UnityPlayerActivity
-ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:5-8:16
+ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:5-8:16
 	android:screenOrientation
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:111-149
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:111-149
 	android:launchMode
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:150-181
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:150-181
 	android:hardwareAccelerated
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:364-399
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:364-399
 	android:configChanges
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:182-363
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:182-363
 	android:theme
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:69-110
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:69-110
 	android:name
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:15-68
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:15-68
 meta-data#unityplayer.UnityActivity
-ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:7-82
+ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:7-82
 	android:value
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:59-79
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:59-79
 	android:name
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:18-58
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:18-58
 meta-data#android.notch_support
-ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:7-78
+ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:7-78
 	android:value
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:55-75
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:55-75
 	android:name
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:18-54
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:18-54
 meta-data#unity.tango-enable
-ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:5-73
+ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:5-73
 	android:value
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:50-70
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:50-70
 	android:name
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:16-49
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:16-49
 meta-data#unityplayer.SkipPermissionsDialog
-ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:5-88
+ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:5-88
 	android:value
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:65-85
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:65-85
 	android:name
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:16-64
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:16-64
 meta-data#unity.splash-mode
-ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:5-69
+ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:5-69
 	android:value
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:49-66
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:49-66
 	android:name
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:16-48
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:16-48
 meta-data#unity.splash-enable
-ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:5-74
+ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:5-74
 	android:value
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:51-71
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:51-71
 	android:name
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:16-50
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:16-50
 meta-data#notch.config
-ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:5-81
+ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:5-81
 	android:value
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:44-78
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:44-78
 	android:name
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:16-43
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:16-43
 meta-data#unity.build-id
-ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:5-101
+ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:5-101
 	android:value
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:46-98
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:46-98
 	android:name
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:16-45
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:16-45
 uses-feature#0x00020000
-ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:3-52
+ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:3-52
 	android:glEsVersion
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:17-49
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:16:17-49
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:17:3-63
+ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:17:3-63
 	android:name
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:17:20-60
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:17:20-60
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:3-65
+ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:3-65
 	android:name
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:20-62
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:18:20-62
 uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
-ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:19:3-84
+ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:19:3-84
 	android:name
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:19:20-81
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:19:20-81
 uses-feature#android.hardware.touchscreen
-ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:3-88
+ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:3-88
 	android:required
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:61-85
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:61-85
 	android:name
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:17-60
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:20:17-60
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:21:3-99
+ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:21:3-99
 	android:required
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:21:72-96
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:21:72-96
 	android:name
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:21:17-71
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:21:17-71
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:22:3-108
+ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:22:3-108
 	android:required
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:22:81-105
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:22:81-105
 	android:name
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:22:17-80
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:22:17-80
 uses-sdk
-INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
-INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
-INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
-INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ocurtis\Desktop\Projects\Study and Practice Projects\unity_android_shopping_app\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
