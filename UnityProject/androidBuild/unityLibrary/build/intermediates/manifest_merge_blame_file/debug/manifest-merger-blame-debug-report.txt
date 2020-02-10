@@ -7,7 +7,7 @@
 7    android:versionName="1.0" >
 8
 9    <uses-sdk
-10        android:minSdkVersion="24"
+10        android:minSdkVersion="21"
 10-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
 11        android:targetSdkVersion="28" />
 11-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml
