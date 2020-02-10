@@ -1,5 +1,13 @@
 package com.lush_digital_.unity_android_shopping_app.ui.knot_wrap_experience.sceneform_ar.ar_menu
 
+import android.content.Context
+import android.graphics.Rect
+import android.graphics.drawable.BitmapDrawable
+import android.graphics.drawable.Drawable
+import com.lush_digital_.unity_android_shopping_app.R
+import com.lush_digital_.unity_android_shopping_app.data.RepoImpl
+import me.samlss.timomenu.TimoItemViewParameter
+
 
 /**
  * @author Olly Curtis
@@ -7,7 +15,7 @@ package com.lush_digital_.unity_android_shopping_app.ui.knot_wrap_experience.sce
  */
 object MenuHelper {
 
-    /*
+
 
     fun getTopList(itemWidth: Int, context: Context): List<TimoItemViewParameter> {
 
@@ -42,8 +50,8 @@ object MenuHelper {
         val listCentre: MutableList<TimoItemViewParameter> =
             ArrayList()
         val removeAllProducts = getTimoItemViewParameterOther(
-            itemWidth, R.drawable.ic_notification_clear_all,
-            R.drawable.ic_notification_clear_all, R.string.remove_all_products, R.color.colorAccent,
+            itemWidth, android.R.drawable.ic_notification_clear_all,
+            android.R.drawable.ic_notification_clear_all, R.string.remove_all_products, R.color.colorAccent,
             R.color.colorPrimary
         )
         val bathBomb1 = getTimoItemViewParameterOther(
@@ -139,6 +147,6 @@ object MenuHelper {
             .build()
     }
 
-     */
+
 
 }
