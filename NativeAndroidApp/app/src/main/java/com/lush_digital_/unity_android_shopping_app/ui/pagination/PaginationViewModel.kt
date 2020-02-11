@@ -250,6 +250,7 @@ class PaginationViewModel : ViewModel() {
                                     && arrayOptions[i] == getString(R.string.three_d_mode) -> {
 
                                 AndroidUtils.animateView(progressOverlay, View.GONE, 0f, 200)
+                                toast("Feature Coming Soon")
 
                                // val intent = Intent(activity, SceneviewActivity::class.java)
                                // intent.putExtra(IMAGE_URL, imgSourceURL)
@@ -260,8 +261,15 @@ class PaginationViewModel : ViewModel() {
 
                                 AndroidUtils.animateView(progressOverlay, View.GONE, 0f, 200)
 
-                                val intent = Intent(activity, ARActivity::class.java)
-                                startActivity(intent)
+                                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+
+                                    val intent = Intent(activity, ARActivity::class.java)
+                                    startActivity(intent)
+
+                                }else{
+
+                                    toast("This Feature Requires OS version Nougat and above")
+                                }
 
                             }
 

@@ -8,13 +8,11 @@ import android.view.Gravity
 import android.widget.Button
 import android.widget.FrameLayout
 import androidx.core.content.ContextCompat
-import androidx.core.content.res.ResourcesCompat
 import com.company.product.OverrideUnityActivity
-import com.google.android.material.snackbar.Snackbar
 import com.lush_digital.knotwrappoc.ui.presentation.pagination.PaginationFragment
 import com.lush_digital_.unity_android_shopping_app.R
+import com.lush_digital_.unity_android_shopping_app.ui.knot_wrap_experience.sceneform_ar.ar_menu.Menu
 import com.lush_digital_.unity_android_shopping_app.ui.knot_wrap_experience.sceneform_ar.ar_menu.MenuHelper
-import kotlinx.android.synthetic.main.activity_ar.*
 import me.samlss.timomenu.TimoMenu
 import me.samlss.timomenu.animation.FlipItemAnimation
 import me.samlss.timomenu.interfaces.TimoMenuListener
@@ -22,6 +20,7 @@ import me.samlss.timomenu.interfaces.TimoMenuListener
 class ARActivity : OverrideUnityActivity() {
 
     private var timoMenu: TimoMenu? = null
+    private var popupMenu = Menu()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,9 +35,7 @@ class ARActivity : OverrideUnityActivity() {
 
     fun addControlsToUnityFrame() {
         val layout: FrameLayout = mUnityPlayer
-        run {
 
-        }
         run{
             timoMenu = setUpKnotWrapSelectionMenu()
 
@@ -71,7 +68,8 @@ class ARActivity : OverrideUnityActivity() {
                 override fun onDismiss() {}
             })
             .setTimoItemClickListener { row, index, menuView ->
-                //popupMenu.handleMenuSelection(row, index, menuView, viewModel)
+              //  UnityPlayer.UnitySendMessage("HelloAR Controller", "ChangeColor", "yellow")
+                popupMenu.handleMenuSelection(row, index, menuView, applicationContext)
             }
             .setMenuMargin(Rect(20, 20, 20, 20))
             .setMenuPadding(Rect(0, 10, 0, 10))
@@ -83,9 +81,4 @@ class ARActivity : OverrideUnityActivity() {
             .build()
 
     }
-
-    fun showSnackBar(toast: String) {
-        Snackbar.make(textView1, message, Snackbar.LENGTH_LONG).show()
-    }
-
 }
