@@ -32,7 +32,7 @@
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
             android:hardwareAccelerated="false"
             android:launchMode="singleTask"
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="portrait"
             android:theme="@style/UnityThemeSelector" >
             <meta-data
                 android:name="unityplayer.UnityActivity"
@@ -59,7 +59,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="9ed6cdda-83e2-4f9e-9ab0-03df9b0cbba1" />
+            android:value="4ba69fb3-b6de-4b7c-9925-cc7d11f9af78" />
     </application>
 
 </manifest>

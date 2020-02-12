@@ -37,7 +37,6 @@ class Menu {
                         if (updatedKnotWrapURL != null) {
 
                             UnityPlayer.UnitySendMessage("HelloAR Controller", "ChangeColor", updatedKnotWrapURL)
-                            //viewModel.selectKnotWrap(updatedKnotWrapURL)
                         }
                     }
 

@@ -264,6 +264,7 @@ class PaginationViewModel : ViewModel() {
                                 if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
 
                                     val intent = Intent(activity, ARActivity::class.java)
+                                    intent.putExtra(IMAGE_URL, imgSourceURL)
                                     startActivity(intent)
 
                                 }else{

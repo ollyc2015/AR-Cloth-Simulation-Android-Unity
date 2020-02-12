@@ -53,13 +53,13 @@
 31            android:name="com.unity3d.player.UnityPlayerActivity"
 31-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:15-68
 32            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-32-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:182-363
+32-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:180-361
 33            android:hardwareAccelerated="false"
-33-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:364-399
+33-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:362-397
 34            android:launchMode="singleTask"
-34-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:150-181
-35            android:screenOrientation="fullSensor"
-35-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:111-149
+34-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:148-179
+35            android:screenOrientation="portrait"
+35-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:111-147
 36            android:theme="@style/UnityThemeSelector" >
 36-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:69-110
 37            <meta-data
@@ -110,7 +110,7 @@
 60-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:5-101
 61            android:name="unity.build-id"
 61-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:16-45
-62            android:value="9ed6cdda-83e2-4f9e-9ab0-03df9b0cbba1" />
+62            android:value="4ba69fb3-b6de-4b7c-9925-cc7d11f9af78" />
 62-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:46-98
 63    </application>
 64

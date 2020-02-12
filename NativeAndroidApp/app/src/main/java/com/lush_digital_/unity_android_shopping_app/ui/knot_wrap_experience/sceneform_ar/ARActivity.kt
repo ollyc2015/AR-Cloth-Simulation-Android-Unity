@@ -4,6 +4,8 @@ import android.content.Intent
 import android.graphics.Point
 import android.graphics.Rect
 import android.os.Bundle
+import android.os.Handler
+import android.util.Log
 import android.view.Gravity
 import android.widget.Button
 import android.widget.FrameLayout
@@ -11,8 +13,10 @@ import androidx.core.content.ContextCompat
 import com.company.product.OverrideUnityActivity
 import com.lush_digital.knotwrappoc.ui.presentation.pagination.PaginationFragment
 import com.lush_digital_.unity_android_shopping_app.R
+import com.lush_digital_.unity_android_shopping_app.data.Constants
 import com.lush_digital_.unity_android_shopping_app.ui.knot_wrap_experience.sceneform_ar.ar_menu.Menu
 import com.lush_digital_.unity_android_shopping_app.ui.knot_wrap_experience.sceneform_ar.ar_menu.MenuHelper
+import com.unity3d.player.UnityPlayer
 import me.samlss.timomenu.TimoMenu
 import me.samlss.timomenu.animation.FlipItemAnimation
 import me.samlss.timomenu.interfaces.TimoMenuListener
@@ -25,7 +29,12 @@ class ARActivity : OverrideUnityActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         addControlsToUnityFrame()
+        handleIntent()
+    }
 
+    private fun handleIntent() {
+        val imageURL = intent?.getStringExtra(Constants.IMAGE_URL)
+        UnityPlayer.UnitySendMessage("HelloAR Controller", "ChangeColor", imageURL)
     }
 
     override fun showMainActivity() {
@@ -33,7 +42,7 @@ class ARActivity : OverrideUnityActivity() {
         startActivity(intent)
     }
 
-    fun addControlsToUnityFrame() {
+    private fun addControlsToUnityFrame() {
         val layout: FrameLayout = mUnityPlayer
 
         run{
@@ -51,7 +60,7 @@ class ARActivity : OverrideUnityActivity() {
 
     }
 
-    fun setUpKnotWrapSelectionMenu(): TimoMenu {
+    private fun setUpKnotWrapSelectionMenu(): TimoMenu {
 
         val size = Point()
         windowManager.defaultDisplay.getSize(size)
@@ -68,17 +77,19 @@ class ARActivity : OverrideUnityActivity() {
                 override fun onDismiss() {}
             })
             .setTimoItemClickListener { row, index, menuView ->
-              //  UnityPlayer.UnitySendMessage("HelloAR Controller", "ChangeColor", "yellow")
                 popupMenu.handleMenuSelection(row, index, menuView, applicationContext)
             }
             .setMenuMargin(Rect(20, 20, 20, 20))
             .setMenuPadding(Rect(0, 10, 0, 10))
-            .addRow(
-                FlipItemAnimation.create(), MenuHelper.getTopList(knotwrapViewWidth, applicationContext)
-            )
+            .addRow(FlipItemAnimation.create(), MenuHelper.getTopList(knotwrapViewWidth, applicationContext))
             .addRow(FlipItemAnimation.create(), MenuHelper.getCentreList(productToggleOption))
             .addRow(FlipItemAnimation.create(), MenuHelper.getBottomList(knotwrapSizeOptionWidth))
             .build()
 
+    }
+
+    override fun onUnityPlayerQuitted() {
+        showMainActivity()
+        finish()
     }
 }
