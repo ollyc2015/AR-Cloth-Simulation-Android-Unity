@@ -1,0 +1,18 @@
+com.google.ar.core.examples.unity.helloar
+id __arcore_cancelButton
+id __arcore_continueButton
+id __arcore_messageText
+layout __arcore_education
+mipmap app_icon
+mipmap app_icon_round
+raw keep_arcore
+string __arcore_cancel
+string __arcore_continue
+string __arcore_install_app
+string __arcore_install_feature
+string __arcore_installing
+string app_name
+string game_view_content_description
+style BaseUnityTheme
+style UnityThemeSelector
+style UnityThemeSelector_Translucent

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\ocurtis\\Documents\\GitHub\\android_unity_shopping\\UnityProject\\androidBuild\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-my\\values-my.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ocurtis\\.gradle\\caches\\transforms-2\\files-2.1\\c4a6fa36ca58a47f6650eb3a5f0aeb9e\\res\\values-my\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,240,293,430,570",
+                        "endColumns": "49,52,136,139,104",
+                        "endOffsets": "239,292,429,569,674"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,109,166,307,451",
+                        "endColumns": "53,56,140,143,108",
+                        "endOffsets": "104,161,302,446,555"
+                    }
+                }
+            ]
+        }
+    ]
+}

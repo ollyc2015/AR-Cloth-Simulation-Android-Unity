@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\ocurtis\\Documents\\GitHub\\android_unity_shopping\\UnityProject\\androidBuild\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ocurtis\\.gradle\\caches\\transforms-2\\files-2.1\\c4a6fa36ca58a47f6650eb3a5f0aeb9e\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "161,208,259,381,503",
+                        "endColumns": "46,50,121,121,83",
+                        "endOffsets": "207,258,380,502,586"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,106,161,287,413",
+                        "endColumns": "50,54,125,125,87",
+                        "endOffsets": "101,156,282,408,496"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ocurtis\\Documents\\GitHub\\android_unity_shopping\\UnityProject\\androidBuild\\launcher\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
+                    },
+                    "to": {
+                        "startLines": "9,11,14",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "618,718,856",
+                        "endLines": "10,13,17",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "713,851,1078"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ocurtis\\Documents\\GitHub\\android_unity_shopping\\UnityProject\\androidBuild\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "55,103",
+                        "endColumns": "46,65",
+                        "endOffsets": "99,166"
+                    },
+                    "to": {
+                        "startLines": "7,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "501,550",
+                        "endColumns": "48,67",
+                        "endOffsets": "545,613"
+                    }
+                }
+            ]
+        }
+    ]
+}

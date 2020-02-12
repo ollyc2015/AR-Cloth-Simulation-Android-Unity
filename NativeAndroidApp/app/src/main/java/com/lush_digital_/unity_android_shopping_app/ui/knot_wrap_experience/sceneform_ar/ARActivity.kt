@@ -4,8 +4,6 @@ import android.content.Intent
 import android.graphics.Point
 import android.graphics.Rect
 import android.os.Bundle
-import android.os.Handler
-import android.util.Log
 import android.view.Gravity
 import android.widget.Button
 import android.widget.FrameLayout
@@ -29,10 +27,10 @@ class ARActivity : OverrideUnityActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         addControlsToUnityFrame()
-        handleIntent()
+        passSelectedTextureToUnity()
     }
 
-    private fun handleIntent() {
+    private fun passSelectedTextureToUnity() {
         val imageURL = intent?.getStringExtra(Constants.IMAGE_URL)
         UnityPlayer.UnitySendMessage("HelloAR Controller", "ChangeColor", imageURL)
     }
