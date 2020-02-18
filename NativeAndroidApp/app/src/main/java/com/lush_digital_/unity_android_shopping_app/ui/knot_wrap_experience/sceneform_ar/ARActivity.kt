@@ -41,6 +41,7 @@ class ARActivity : OverrideUnityActivity() {
     }
 
     private fun addControlsToUnityFrame() {
+
         val layout: FrameLayout = mUnityPlayer
 
         run{
@@ -55,7 +56,6 @@ class ARActivity : OverrideUnityActivity() {
             layout.addView(myButton, 60, 150)
 
         }
-
     }
 
     private fun setUpKnotWrapSelectionMenu(): TimoMenu {
