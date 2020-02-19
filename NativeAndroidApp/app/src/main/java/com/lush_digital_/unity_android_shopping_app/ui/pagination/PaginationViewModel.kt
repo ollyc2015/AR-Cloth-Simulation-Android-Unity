@@ -15,13 +15,13 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
 import androidx.lifecycle.ViewModel
+import com.lush_digital_.unity_android_shopping_app.R
 import com.lush_digital_.unity_android_shopping_app.data.Constants.Companion.IMAGE_URL
+import com.lush_digital_.unity_android_shopping_app.data.Constants.Companion.SCENE_REQUESTED
 import com.lush_digital_.unity_android_shopping_app.data.RepoImpl
 import com.lush_digital_.unity_android_shopping_app.data.model.KnotwrapIndividual
+import com.lush_digital_.unity_android_shopping_app.ui.knot_wrap_experience.ARActivity
 import com.lush_digital_.unity_android_shopping_app.utils.AndroidUtils
-import com.lush_digital_.unity_android_shopping_app.R
-import com.lush_digital_.unity_android_shopping_app.ui.knot_wrap_experience.sceneform_ar.ARActivity
-import com.unity3d.player.UnityPlayerActivity
 import kotlinx.android.synthetic.main.include_progress_overlay.*
 import kotlinx.android.synthetic.main.pager_item.*
 
@@ -265,6 +265,8 @@ class PaginationViewModel : ViewModel() {
 
                                     val intent = Intent(activity, ARActivity::class.java)
                                     intent.putExtra(IMAGE_URL, imgSourceURL)
+                                    intent.putExtra(SCENE_REQUESTED, "1")
+                                    intent.flags = Intent.FLAG_ACTIVITY_REORDER_TO_FRONT
                                     startActivity(intent)
 
                                 }else{

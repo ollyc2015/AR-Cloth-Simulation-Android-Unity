@@ -9,6 +9,7 @@ class Constants {
         const val BATH_BOMB_BONE_NAME = "bath_bomb_point"
         const val IMAGE_URL = "image_url"
         const val ALL_KNOTWRAPS = "all_knotwraps"
+        const val SCENE_REQUESTED = "scene_requested"
 
     }
 }

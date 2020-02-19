@@ -18,10 +18,8 @@
     <string name="lush_life_drawable_name">lush_life_knotwrap</string>
     <string name="ready_jelly_go_drawable_name">ready_jelly_go_knotwrap</string>
 
-    <string name="remove_all_products">Remove All Products</string>
-    <string name="add_one_bath_bomb">Wrap a Bath Bomb</string>
-    <string name="add_two_bath_bomb">Wrap two Bath Bombs</string>
-    <string name="add_three_bath_bomb">Wrap three Bath Bombs</string>
+    <string name="animation_one">Animation One</string>
+    <string name="animation_two">Animation Two</string>
 
     <string name="animation_speed_slow">Slow</string>
     <string name="animation_speed_medium">Medium</string>

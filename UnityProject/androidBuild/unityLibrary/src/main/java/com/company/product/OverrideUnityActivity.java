@@ -7,7 +7,6 @@ import com.unity3d.player.UnityPlayerActivity;
 public abstract class OverrideUnityActivity extends UnityPlayerActivity
 {
     public static OverrideUnityActivity instance = null;
-
     abstract protected void showMainActivity();
 
     @Override
