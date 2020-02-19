@@ -4,7 +4,6 @@ import android.content.Intent
 import android.graphics.Point
 import android.graphics.Rect
 import android.os.Bundle
-import android.util.Log
 import android.view.Gravity
 import android.widget.Button
 import android.widget.FrameLayout
@@ -17,27 +16,25 @@ import com.lush_digital_.unity_android_shopping_app.data.Constants.Companion.SCE
 import com.lush_digital_.unity_android_shopping_app.ui.knot_wrap_experience.ar_menu.Menu
 import com.lush_digital_.unity_android_shopping_app.ui.knot_wrap_experience.ar_menu.MenuHelper
 import com.unity3d.player.UnityPlayer
-import com.unity3d.player.UnityPlayerActivity
 import me.samlss.timomenu.TimoMenu
 import me.samlss.timomenu.animation.FlipItemAnimation
 import me.samlss.timomenu.interfaces.TimoMenuListener
 
-class ARActivity: OverrideUnityActivity() {
+class ARActivity : OverrideUnityActivity() {
 
     private var timoMenu: TimoMenu? = null
     private var popupMenu = Menu()
-   // private var requestedScene = sceneRequest
+    // private var requestedScene = sceneRequest
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         loadScene()
-        addControlsToUnityFrame()
-        passSelectedTextureToUnity()
     }
 
-    private fun loadScene(){
-       val sceneRequest =  intent?.getStringExtra(SCENE_REQUESTED)
-       UnityPlayer.UnitySendMessage("HelloAR Controller", "loadScene", sceneRequest)
+    private fun loadScene() {
+        val sceneRequest = intent?.getStringExtra(SCENE_REQUESTED)
+        UnityPlayer.UnitySendMessage("HelloAR Controller", "loadScene", sceneRequest)
     }
 
 
@@ -51,7 +48,7 @@ class ARActivity: OverrideUnityActivity() {
 
         val layout: FrameLayout = mUnityPlayer
 
-        run{
+        runOnUiThread {
             timoMenu = setUpKnotWrapSelectionMenu()
 
             val myButton = Button(this)
@@ -82,11 +79,14 @@ class ARActivity: OverrideUnityActivity() {
                 override fun onDismiss() {}
             })
             .setTimoItemClickListener { row, index, menuView ->
-                popupMenu.handleMenuSelection(row, index, menuView, applicationContext)
+                popupMenu.handleMenuSelection(row, index, menuView, applicationContext, intent)
             }
             .setMenuMargin(Rect(20, 20, 20, 20))
             .setMenuPadding(Rect(0, 10, 0, 10))
-            .addRow(FlipItemAnimation.create(), MenuHelper.getTopList(knotwrapViewWidth, applicationContext))
+            .addRow(
+                FlipItemAnimation.create(),
+                MenuHelper.getTopList(knotwrapViewWidth, applicationContext)
+            )
             .addRow(FlipItemAnimation.create(), MenuHelper.getCentreList(productToggleOption))
             .addRow(FlipItemAnimation.create(), MenuHelper.getBottomList(knotwrapSizeOptionWidth))
             .build()
@@ -99,8 +99,15 @@ class ARActivity: OverrideUnityActivity() {
         startActivity(intent)
     }
 
+    //This method is called from the Unity Library, do not remove
+     fun loadedScene() {
+         addControlsToUnityFrame()
+         passSelectedTextureToUnity()
+
+    }
+
     override fun onUnityPlayerQuitted() {
         showMainActivity()
-      //  finish()
+        //  finish()
     }
 }
