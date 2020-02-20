@@ -69,7 +69,6 @@ class PaginationFragment : Fragment() {
 
     fun pageIndicator() {
         //Page indicator
-        Log.d("olly", "is called")
         val pageIndicatorView = pageIndicatorView
         pageIndicatorView.setViewPager(viewPager)
         pageIndicatorView.setInteractiveAnimation(true)

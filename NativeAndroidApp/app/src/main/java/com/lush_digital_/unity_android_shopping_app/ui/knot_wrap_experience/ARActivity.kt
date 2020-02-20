@@ -4,6 +4,7 @@ import android.content.Intent
 import android.graphics.Point
 import android.graphics.Rect
 import android.os.Bundle
+import android.util.Log
 import android.view.Gravity
 import android.widget.Button
 import android.widget.FrameLayout
@@ -20,17 +21,18 @@ import me.samlss.timomenu.TimoMenu
 import me.samlss.timomenu.animation.FlipItemAnimation
 import me.samlss.timomenu.interfaces.TimoMenuListener
 
+
 class ARActivity : OverrideUnityActivity() {
 
     private var timoMenu: TimoMenu? = null
     private var popupMenu = Menu()
-    // private var requestedScene = sceneRequest
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         loadScene()
     }
+
 
     private fun loadScene() {
         val sceneRequest = intent?.getStringExtra(SCENE_REQUESTED)
@@ -79,7 +81,8 @@ class ARActivity : OverrideUnityActivity() {
                 override fun onDismiss() {}
             })
             .setTimoItemClickListener { row, index, menuView ->
-                popupMenu.handleMenuSelection(row, index, menuView, applicationContext, intent)
+                Constants.CALLED_ONCE = false
+                popupMenu.handleMenuSelection(row, index, menuView, applicationContext, intent, timoMenu)
             }
             .setMenuMargin(Rect(20, 20, 20, 20))
             .setMenuPadding(Rect(0, 10, 0, 10))

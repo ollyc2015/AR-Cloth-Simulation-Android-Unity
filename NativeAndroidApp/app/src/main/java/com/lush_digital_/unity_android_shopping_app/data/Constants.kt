@@ -10,6 +10,7 @@ class Constants {
         const val IMAGE_URL = "image_url"
         const val ALL_KNOTWRAPS = "all_knotwraps"
         const val SCENE_REQUESTED = "scene_requested"
+        var CALLED_ONCE = false
 
     }
 }

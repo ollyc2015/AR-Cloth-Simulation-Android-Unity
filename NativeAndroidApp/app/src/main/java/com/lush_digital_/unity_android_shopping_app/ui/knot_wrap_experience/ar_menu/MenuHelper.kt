@@ -56,7 +56,7 @@ object MenuHelper {
         )
         val simulation2 = getTimoItemViewParameterOther(
             itemWidth, R.drawable.animation_two,
-            R.drawable.two_bathbombs, R.string.animation_two, R.color.colorAccent,
+            R.drawable.animation_two, R.string.animation_two, R.color.colorAccent,
             R.color.colorPrimary
         )
 

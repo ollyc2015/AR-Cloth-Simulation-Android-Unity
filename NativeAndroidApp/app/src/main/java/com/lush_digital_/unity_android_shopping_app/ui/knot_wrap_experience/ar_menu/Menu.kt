@@ -2,10 +2,13 @@ package com.lush_digital_.unity_android_shopping_app.ui.knot_wrap_experience.ar_
 
 import android.content.Context
 import android.content.Intent
+import android.util.Log
 import com.lush_digital_.unity_android_shopping_app.R
 import com.lush_digital_.unity_android_shopping_app.data.Constants
+import com.lush_digital_.unity_android_shopping_app.data.Constants.Companion.CALLED_ONCE
 import com.lush_digital_.unity_android_shopping_app.data.RepoImpl
 import com.unity3d.player.UnityPlayer
+import me.samlss.timomenu.TimoMenu
 import me.samlss.timomenu.view.TimoItemView
 
 
@@ -21,7 +24,8 @@ class Menu {
         index: Int,
         menuView: TimoItemView,
         applicationContext: Context,
-        intent: Intent
+        intent: Intent,
+        timoMenu: TimoMenu?
     ) {
 
         val allLoadedKnotWraps = RepoImpl().getKnotwraps(applicationContext)
@@ -40,22 +44,32 @@ class Menu {
                         val updatedKnotWrapURL = allLoadedKnotWraps.knotwraps[i].src
                         if (updatedKnotWrapURL != null) {
 
+                            intent.putExtra(Constants.IMAGE_URL, updatedKnotWrapURL)
                             UnityPlayer.UnitySendMessage("HelloAR Controller", "ChangeColor", updatedKnotWrapURL)
                         }
                     }
 
                     applicationContext.getString(R.string.animation_one) -> {
 
+                        if(!CALLED_ONCE) {
 
-                        UnityPlayer.UnitySendMessage("HelloAR Controller", "loadScene", "1")
+                            CALLED_ONCE = true
+                            timoMenu?.dismiss()
+                            UnityPlayer.UnitySendMessage("HelloAR Controller", "loadScene", "1")
+                        }
 
 
                     }
 
                     applicationContext.getString(R.string.animation_two) -> {
 
+                        if(!CALLED_ONCE) {
 
-                        UnityPlayer.UnitySendMessage("HelloAR Controller", "loadScene", "2")
+                            CALLED_ONCE = true
+
+                            timoMenu?.dismiss()
+                            UnityPlayer.UnitySendMessage("HelloAR Controller", "loadScene", "2")
+                        }
 
 
                     }
