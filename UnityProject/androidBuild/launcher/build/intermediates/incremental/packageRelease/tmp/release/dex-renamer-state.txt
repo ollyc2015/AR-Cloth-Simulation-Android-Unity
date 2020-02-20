@@ -1,4 +1,4 @@
-#Thu Feb 20 17:57:06 GMT 2020
+#Thu Feb 20 18:00:59 GMT 2020
 base.0=C\:\\Users\\ocurtis\\Documents\\GitHub\\android_unity_shopping\\UnityProject\\androidBuild\\launcher\\build\\intermediates\\transforms\\dexMerger\\release\\0
 path.0=classes.dex
 renamed.0=classes.dex
