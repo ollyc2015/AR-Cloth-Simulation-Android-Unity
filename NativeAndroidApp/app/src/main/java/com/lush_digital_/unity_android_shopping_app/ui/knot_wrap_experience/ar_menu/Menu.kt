@@ -2,7 +2,8 @@ package com.lush_digital_.unity_android_shopping_app.ui.knot_wrap_experience.ar_
 
 import android.content.Context
 import android.content.Intent
-import android.util.Log
+import android.view.View
+import android.widget.Button
 import com.lush_digital_.unity_android_shopping_app.R
 import com.lush_digital_.unity_android_shopping_app.data.Constants
 import com.lush_digital_.unity_android_shopping_app.data.Constants.Companion.CALLED_ONCE
@@ -25,7 +26,9 @@ class Menu {
         menuView: TimoItemView,
         applicationContext: Context,
         intent: Intent,
-        timoMenu: TimoMenu?
+        timoMenu: TimoMenu?,
+        pauseButton: Button?,
+        playButton: Button?
     ) {
 
         val allLoadedKnotWraps = RepoImpl().getKnotwraps(applicationContext)
@@ -54,6 +57,8 @@ class Menu {
                         if(!CALLED_ONCE) {
 
                             CALLED_ONCE = true
+                            pauseButton?.visibility = View.GONE
+                            playButton?.visibility = View.GONE
                             timoMenu?.dismiss()
                             UnityPlayer.UnitySendMessage("HelloAR Controller", "loadScene", "1")
                         }
@@ -66,13 +71,14 @@ class Menu {
                         if(!CALLED_ONCE) {
 
                             CALLED_ONCE = true
-
+                            pauseButton?.visibility = View.GONE
+                            playButton?.visibility = View.GONE
                             timoMenu?.dismiss()
                             UnityPlayer.UnitySendMessage("HelloAR Controller", "loadScene", "2")
                         }
-
-
                     }
+
+
 
                 }
             }

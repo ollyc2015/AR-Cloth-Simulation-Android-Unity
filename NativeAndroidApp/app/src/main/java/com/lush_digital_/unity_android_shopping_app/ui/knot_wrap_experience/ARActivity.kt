@@ -1,11 +1,14 @@
 package com.lush_digital_.unity_android_shopping_app.ui.knot_wrap_experience
 
+import android.content.Context
 import android.content.Intent
 import android.graphics.Point
 import android.graphics.Rect
+import android.hardware.Sensor
+import android.hardware.SensorManager
 import android.os.Bundle
-import android.util.Log
 import android.view.Gravity
+import android.view.View
 import android.widget.Button
 import android.widget.FrameLayout
 import androidx.core.content.ContextCompat
@@ -26,11 +29,18 @@ class ARActivity : OverrideUnityActivity() {
 
     private var timoMenu: TimoMenu? = null
     private var popupMenu = Menu()
+    private var mSensorManager: SensorManager? = null
+    private var mAccelerometer: Sensor? = null
+    private var playButton: Button? = null
+    private var pauseButton: Button? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         loadScene()
+
+        mSensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
+        mAccelerometer = mSensorManager!!.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)
     }
 
 
@@ -50,16 +60,71 @@ class ARActivity : OverrideUnityActivity() {
 
         val layout: FrameLayout = mUnityPlayer
 
+        val mWidth = this.resources.displayMetrics.widthPixels
+        val mHeight = this.resources.displayMetrics.heightPixels
+
         runOnUiThread {
             timoMenu = setUpKnotWrapSelectionMenu()
 
-            val myButton = Button(this)
-            myButton.background = ContextCompat.getDrawable(this, R.drawable.three_dots_menu)
-            myButton.x = 40f
-            myButton.y = 10f
+            val menuButton = Button(this)
+            menuButton.background = ContextCompat.getDrawable(this, R.drawable.three_dots_menu)
+            menuButton.x = 40f
+            menuButton.y = 10f
 
-            myButton.setOnClickListener { timoMenu?.show() }
-            layout.addView(myButton, 60, 150)
+            menuButton.setOnClickListener { timoMenu?.show() }
+            layout.addView(menuButton, 60, 150)
+
+        }
+
+        runOnUiThread {
+
+            pauseButton = Button(this)
+            pauseButton?.background =
+                ContextCompat.getDrawable(this, android.R.drawable.ic_media_pause)
+            pauseButton?.x = mWidth / 2.2f
+            pauseButton?.y = mHeight / 1.1f
+            pauseButton?.visibility = View.GONE
+            pauseButton?.setOnClickListener { pauseAnimation() }
+            layout.addView(pauseButton, 100, 190)
+
+        }
+
+        runOnUiThread {
+
+            playButton = Button(this)
+            playButton?.background =
+                ContextCompat.getDrawable(this, android.R.drawable.ic_media_play)
+            playButton?.x = mWidth / 2.2f
+            playButton?.y = mHeight / 1.1f
+            playButton?.visibility = View.GONE
+
+            playButton?.setOnClickListener { playAnimation() }
+            layout.addView(playButton, 60, 150)
+
+        }
+    }
+
+    private fun pauseAnimation() {
+
+        runOnUiThread {
+
+            playButton?.visibility = View.VISIBLE
+            pauseButton?.visibility = View.GONE
+
+            UnityPlayer.UnitySendMessage("HelloAR Controller", "pauseAnimation", "")
+
+        }
+
+    }
+
+    private fun playAnimation() {
+
+        runOnUiThread {
+
+            playButton?.visibility = View.GONE
+            pauseButton?.visibility = View.VISIBLE
+
+            UnityPlayer.UnitySendMessage("HelloAR Controller", "continueAnimation", "")
 
         }
     }
@@ -82,7 +147,16 @@ class ARActivity : OverrideUnityActivity() {
             })
             .setTimoItemClickListener { row, index, menuView ->
                 Constants.CALLED_ONCE = false
-                popupMenu.handleMenuSelection(row, index, menuView, applicationContext, intent, timoMenu)
+                popupMenu.handleMenuSelection(
+                    row,
+                    index,
+                    menuView,
+                    applicationContext,
+                    intent,
+                    timoMenu,
+                    pauseButton,
+                    playButton
+                )
             }
             .setMenuMargin(Rect(20, 20, 20, 20))
             .setMenuPadding(Rect(0, 10, 0, 10))
@@ -96,6 +170,7 @@ class ARActivity : OverrideUnityActivity() {
 
     }
 
+
     override fun showMainActivity() {
         val intent = Intent(this, PaginationFragment::class.java)
         intent.flags = Intent.FLAG_ACTIVITY_REORDER_TO_FRONT or Intent.FLAG_ACTIVITY_SINGLE_TOP
@@ -103,9 +178,18 @@ class ARActivity : OverrideUnityActivity() {
     }
 
     //This method is called from the Unity Library, do not remove
-     fun loadedScene() {
-         addControlsToUnityFrame()
-         passSelectedTextureToUnity()
+    fun loadedScene() {
+        addControlsToUnityFrame()
+        passSelectedTextureToUnity()
+
+    }
+
+    //This method is called from the Unity Library, do not remove
+    fun showPauseButton() {
+
+        runOnUiThread {
+            pauseButton?.visibility = View.VISIBLE
+        }
 
     }
 
