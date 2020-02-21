@@ -195,35 +195,14 @@ class ARActivity : OverrideUnityActivity() {
     }
 
     override fun onPause() {
-        super.onPause(
+        super.onPause()
 
-        )
-        if(playButton?.isVisible!!){
+        playButton?.visibility = View.GONE
+        pauseButton?.visibility = View.GONE
+        UnityPlayer.UnitySendMessage("HelloAR Controller", "destroyObjects", "")
 
-            isPauseButtonVisible = false
-            isPlayButtonVisible = true
-
-        }else{
-
-            isPauseButtonVisible = true
-            isPlayButtonVisible = false
-        }
     }
 
-    override fun onResume() {
-        super.onResume()
-
-        if(this.isPlayButtonVisible!!){
-
-            playButton?.visibility = View.VISIBLE
-            pauseButton?.visibility = View.GONE
-
-        }else{
-
-            playButton?.visibility = View.GONE
-            pauseButton?.visibility = View.VISIBLE
-        }
-    }
 
     override fun onUnityPlayerQuitted() {
         showMainActivity()
