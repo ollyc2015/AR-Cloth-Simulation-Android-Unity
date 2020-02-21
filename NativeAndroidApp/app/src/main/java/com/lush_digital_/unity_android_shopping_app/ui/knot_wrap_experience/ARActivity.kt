@@ -29,8 +29,6 @@ class ARActivity : OverrideUnityActivity() {
 
     private var timoMenu: TimoMenu? = null
     private var popupMenu = Menu()
-    private var mSensorManager: SensorManager? = null
-    private var mAccelerometer: Sensor? = null
     private var playButton: Button? = null
     private var pauseButton: Button? = null
 
@@ -39,8 +37,6 @@ class ARActivity : OverrideUnityActivity() {
         super.onCreate(savedInstanceState)
         loadScene()
 
-        mSensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
-        mAccelerometer = mSensorManager!!.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)
     }
 
 
@@ -129,6 +125,7 @@ class ARActivity : OverrideUnityActivity() {
         }
     }
 
+
     private fun setUpKnotWrapSelectionMenu(): TimoMenu {
 
         val size = Point()
@@ -191,6 +188,12 @@ class ARActivity : OverrideUnityActivity() {
             pauseButton?.visibility = View.VISIBLE
         }
 
+    }
+
+    override fun onResume() {
+        super.onResume()
+        playButton?.visibility = View.GONE
+        pauseButton?.visibility = View.GONE
     }
 
     override fun onUnityPlayerQuitted() {

@@ -79,6 +79,27 @@ class Menu {
                     }
 
 
+                    allLoadedKnotWraps.knotwraps[i].size?.get(v) -> {
+
+                        when {
+                            allLoadedKnotWraps.knotwraps[i].size?.get(v)!!.startsWith("S") -> {
+
+                                UnityPlayer.UnitySendMessage("HelloAR Controller", "smallKW", "")
+
+                            }
+                            allLoadedKnotWraps.knotwraps[i].size?.get(v)!!.startsWith("M") -> {
+
+                                UnityPlayer.UnitySendMessage("HelloAR Controller", "mediumKW", "")
+
+                            }
+                            else -> {
+
+                                UnityPlayer.UnitySendMessage("HelloAR Controller", "largeKW", "")
+
+                            }
+                        }
+
+                    }
 
                 }
             }
