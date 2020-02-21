@@ -7,11 +7,13 @@ import android.graphics.Rect
 import android.hardware.Sensor
 import android.hardware.SensorManager
 import android.os.Bundle
+import android.util.Log
 import android.view.Gravity
 import android.view.View
 import android.widget.Button
 import android.widget.FrameLayout
 import androidx.core.content.ContextCompat
+import androidx.core.view.isVisible
 import com.company.product.OverrideUnityActivity
 import com.lush_digital.knotwrappoc.ui.presentation.pagination.PaginationFragment
 import com.lush_digital_.unity_android_shopping_app.R
@@ -31,6 +33,8 @@ class ARActivity : OverrideUnityActivity() {
     private var popupMenu = Menu()
     private var playButton: Button? = null
     private var pauseButton: Button? = null
+    private var isPlayButtonVisible: Boolean? = false
+    private var isPauseButtonVisible: Boolean? = false
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -190,10 +194,35 @@ class ARActivity : OverrideUnityActivity() {
 
     }
 
+    override fun onPause() {
+        super.onPause(
+
+        )
+        if(playButton?.isVisible!!){
+
+            isPauseButtonVisible = false
+            isPlayButtonVisible = true
+
+        }else{
+
+            isPauseButtonVisible = true
+            isPlayButtonVisible = false
+        }
+    }
+
     override fun onResume() {
         super.onResume()
-        playButton?.visibility = View.GONE
-        pauseButton?.visibility = View.GONE
+
+        if(this.isPlayButtonVisible!!){
+
+            playButton?.visibility = View.VISIBLE
+            pauseButton?.visibility = View.GONE
+
+        }else{
+
+            playButton?.visibility = View.GONE
+            pauseButton?.visibility = View.VISIBLE
+        }
     }
 
     override fun onUnityPlayerQuitted() {
