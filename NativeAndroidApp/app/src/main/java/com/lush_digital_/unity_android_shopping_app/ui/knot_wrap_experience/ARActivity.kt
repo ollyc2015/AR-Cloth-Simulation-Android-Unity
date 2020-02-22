@@ -75,7 +75,7 @@ class ARActivity : OverrideUnityActivity() {
             pauseButton?.background =
                 ContextCompat.getDrawable(this, android.R.drawable.ic_media_pause)
             pauseButton?.x = mWidth / 2.2f
-            pauseButton?.y = mHeight / 1.1f
+            pauseButton?.y = mHeight / 1.15f
             pauseButton?.visibility = View.GONE
             pauseButton?.setOnClickListener { pauseAnimation() }
             layout.addView(pauseButton, 100, 190)
@@ -88,7 +88,7 @@ class ARActivity : OverrideUnityActivity() {
             playButton?.background =
                 ContextCompat.getDrawable(this, android.R.drawable.ic_media_play)
             playButton?.x = mWidth / 2.2f
-            playButton?.y = mHeight / 1.1f
+            playButton?.y = mHeight / 1.15f
             playButton?.visibility = View.GONE
 
             playButton?.setOnClickListener { playAnimation() }
@@ -182,6 +182,7 @@ class ARActivity : OverrideUnityActivity() {
 
         runOnUiThread {
             pauseButton?.visibility = View.VISIBLE
+            playButton?.visibility = View.GONE
         }
 
     }
