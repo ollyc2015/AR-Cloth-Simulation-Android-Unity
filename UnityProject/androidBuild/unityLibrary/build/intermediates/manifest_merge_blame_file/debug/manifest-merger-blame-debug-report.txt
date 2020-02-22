@@ -110,7 +110,7 @@
 60-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:5-101
 61            android:name="unity.build-id"
 61-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:16-45
-62            android:value="dbc63a61-6a58-48fb-b856-8f8cde7fb2c1" />
+62            android:value="385a428e-84ab-4b19-b0cf-4f13e0d57b5a" />
 62-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:46-98
 63    </application>
 64
