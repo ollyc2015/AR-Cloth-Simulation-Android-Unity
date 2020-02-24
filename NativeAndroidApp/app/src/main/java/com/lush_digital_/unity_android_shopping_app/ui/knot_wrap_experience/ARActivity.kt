@@ -4,6 +4,7 @@ import android.content.Intent
 import android.graphics.Point
 import android.graphics.Rect
 import android.os.Bundle
+import android.util.Log
 import android.view.Gravity
 import android.view.View
 import android.widget.Button
@@ -164,11 +165,13 @@ class ARActivity : OverrideUnityActivity() {
 
     }
 
+    override fun onPause() {
+        super.onPause()
 
-    override fun showMainActivity() {
-        val intent = Intent(this, MainActivity::class.java)
-        intent.flags = Intent.FLAG_ACTIVITY_REORDER_TO_FRONT or Intent.FLAG_ACTIVITY_SINGLE_TOP
-        startActivity(intent)
+        playButton?.visibility = View.GONE
+        pauseButton?.visibility = View.GONE
+        UnityPlayer.UnitySendMessage("HelloAR Controller", "destroyObjects", "")
+
     }
 
     //This method is called from the Unity Library, do not remove
@@ -188,18 +191,11 @@ class ARActivity : OverrideUnityActivity() {
 
     }
 
-    override fun onPause() {
-        super.onPause()
+    //This method is called from the Unity Library, do not remove
+    //When the back button is pressed, go to the position the user was at in at the pagination selection screen
+    fun goToPreviousScreen() {
 
-        playButton?.visibility = View.GONE
-        pauseButton?.visibility = View.GONE
-        UnityPlayer.UnitySendMessage("HelloAR Controller", "destroyObjects", "")
+        finish()
 
-    }
-
-
-    override fun onUnityPlayerQuitted() {
-       // showMainActivity()
-        //finish()
     }
 }

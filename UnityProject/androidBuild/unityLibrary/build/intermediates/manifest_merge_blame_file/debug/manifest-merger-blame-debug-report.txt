@@ -53,67 +53,65 @@
 31            android:name="com.unity3d.player.UnityPlayerActivity"
 31-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:15-68
 32            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-32-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:211-392
+32-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:180-361
 33            android:hardwareAccelerated="false"
-33-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:393-428
+33-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:362-397
 34            android:launchMode="singleTask"
 34-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:148-179
-35            android:process=":unityplayer"
-35-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:180-210
-36            android:screenOrientation="portrait"
-36-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:111-147
-37            android:theme="@style/UnityThemeSelector" >
-37-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:69-110
-38            <meta-data
-38-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:7-82
-39                android:name="unityplayer.UnityActivity"
-39-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:18-58
-40                android:value="true" />
-40-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:59-79
-41            <meta-data
-41-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:7-78
-42                android:name="android.notch_support"
-42-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:18-54
-43                android:value="true" />
-43-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:55-75
-44        </activity>
-45
-46        <meta-data
-46-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:5-73
-47            android:name="unity.tango-enable"
-47-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:16-49
-48            android:value="True" />
-48-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:50-70
-49        <meta-data
-49-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:5-88
-50            android:name="unityplayer.SkipPermissionsDialog"
-50-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:16-64
-51            android:value="true" />
-51-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:65-85
-52        <meta-data
-52-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:5-69
-53            android:name="unity.splash-mode"
-53-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:16-48
-54            android:value="0" />
-54-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:49-66
-55        <meta-data
-55-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:5-74
-56            android:name="unity.splash-enable"
-56-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:16-50
-57            android:value="True" />
-57-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:51-71
-58        <meta-data
-58-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:5-81
-59            android:name="notch.config"
-59-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:16-43
-60            android:value="portrait|landscape" />
-60-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:44-78
-61        <meta-data
-61-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:5-101
-62            android:name="unity.build-id"
-62-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:16-45
-63            android:value="02af1238-4ee3-49a6-9c8f-53499d8ee593" />
-63-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:46-98
-64    </application>
-65
-66</manifest>
+35            android:screenOrientation="portrait"
+35-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:111-147
+36            android:theme="@style/UnityThemeSelector" >
+36-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:5:69-110
+37            <meta-data
+37-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:7-82
+38                android:name="unityplayer.UnityActivity"
+38-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:18-58
+39                android:value="true" />
+39-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:6:59-79
+40            <meta-data
+40-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:7-78
+41                android:name="android.notch_support"
+41-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:18-54
+42                android:value="true" />
+42-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:7:55-75
+43        </activity>
+44
+45        <meta-data
+45-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:5-73
+46            android:name="unity.tango-enable"
+46-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:16-49
+47            android:value="True" />
+47-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:9:50-70
+48        <meta-data
+48-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:5-88
+49            android:name="unityplayer.SkipPermissionsDialog"
+49-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:16-64
+50            android:value="true" />
+50-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:10:65-85
+51        <meta-data
+51-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:5-69
+52            android:name="unity.splash-mode"
+52-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:16-48
+53            android:value="0" />
+53-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:11:49-66
+54        <meta-data
+54-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:5-74
+55            android:name="unity.splash-enable"
+55-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:16-50
+56            android:value="True" />
+56-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:12:51-71
+57        <meta-data
+57-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:5-81
+58            android:name="notch.config"
+58-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:16-43
+59            android:value="portrait|landscape" />
+59-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:13:44-78
+60        <meta-data
+60-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:5-101
+61            android:name="unity.build-id"
+61-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:16-45
+62            android:value="37d09535-3a82-47b8-9b58-de4f4a29bdf4" />
+62-->C:\Users\ocurtis\Documents\GitHub\android_unity_shopping\UnityProject\androidBuild\unityLibrary\src\main\AndroidManifest.xml:14:46-98
+63    </application>
+64
+65</manifest>
