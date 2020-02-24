@@ -11,6 +11,7 @@ import android.widget.FrameLayout
 import androidx.core.content.ContextCompat
 import com.company.product.OverrideUnityActivity
 import com.lush_digital.knotwrappoc.ui.presentation.pagination.PaginationFragment
+import com.lush_digital_.unity_android_shopping_app.MainActivity
 import com.lush_digital_.unity_android_shopping_app.R
 import com.lush_digital_.unity_android_shopping_app.data.Constants
 import com.lush_digital_.unity_android_shopping_app.data.Constants.Companion.SCENE_REQUESTED
@@ -165,7 +166,7 @@ class ARActivity : OverrideUnityActivity() {
 
 
     override fun showMainActivity() {
-        val intent = Intent(this, PaginationFragment::class.java)
+        val intent = Intent(this, MainActivity::class.java)
         intent.flags = Intent.FLAG_ACTIVITY_REORDER_TO_FRONT or Intent.FLAG_ACTIVITY_SINGLE_TOP
         startActivity(intent)
     }
@@ -198,7 +199,7 @@ class ARActivity : OverrideUnityActivity() {
 
 
     override fun onUnityPlayerQuitted() {
-        showMainActivity()
-        //  finish()
+       // showMainActivity()
+        //finish()
     }
 }
