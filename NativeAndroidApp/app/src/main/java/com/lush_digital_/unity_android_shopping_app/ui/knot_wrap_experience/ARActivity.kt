@@ -1,18 +1,14 @@
 package com.lush_digital_.unity_android_shopping_app.ui.knot_wrap_experience
 
-import android.content.Intent
 import android.graphics.Point
 import android.graphics.Rect
 import android.os.Bundle
-import android.util.Log
 import android.view.Gravity
 import android.view.View
 import android.widget.Button
 import android.widget.FrameLayout
 import androidx.core.content.ContextCompat
 import com.company.product.OverrideUnityActivity
-import com.lush_digital.knotwrappoc.ui.presentation.pagination.PaginationFragment
-import com.lush_digital_.unity_android_shopping_app.MainActivity
 import com.lush_digital_.unity_android_shopping_app.R
 import com.lush_digital_.unity_android_shopping_app.data.Constants
 import com.lush_digital_.unity_android_shopping_app.data.Constants.Companion.SCENE_REQUESTED
@@ -196,6 +192,5 @@ class ARActivity : OverrideUnityActivity() {
     fun goToPreviousScreen() {
 
         finish()
-
     }
 }
