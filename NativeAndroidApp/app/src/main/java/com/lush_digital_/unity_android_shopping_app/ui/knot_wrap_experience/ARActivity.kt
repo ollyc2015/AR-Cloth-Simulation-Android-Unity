@@ -26,6 +26,7 @@ class ARActivity : OverrideUnityActivity() {
     private var popupMenu = Menu()
     private var playButton: Button? = null
     private var pauseButton: Button? = null
+    private var menuButton: Button? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -57,12 +58,12 @@ class ARActivity : OverrideUnityActivity() {
         runOnUiThread {
             timoMenu = setUpKnotWrapSelectionMenu()
 
-            val menuButton = Button(this)
-            menuButton.background = ContextCompat.getDrawable(this, R.drawable.three_dots_menu)
-            menuButton.x = 40f
-            menuButton.y = 10f
+            menuButton = Button(this)
+            menuButton?.background = ContextCompat.getDrawable(this, R.drawable.three_dots_menu)
+            menuButton?.x = 40f
+            menuButton?.y = 10f
 
-            menuButton.setOnClickListener { timoMenu?.show() }
+            menuButton?.setOnClickListener { timoMenu?.show() }
             layout.addView(menuButton, 60, 150)
 
         }
@@ -146,7 +147,8 @@ class ARActivity : OverrideUnityActivity() {
                     intent,
                     timoMenu,
                     pauseButton,
-                    playButton
+                    playButton,
+                    menuButton
                 )
             }
             .setMenuMargin(Rect(20, 20, 20, 20))

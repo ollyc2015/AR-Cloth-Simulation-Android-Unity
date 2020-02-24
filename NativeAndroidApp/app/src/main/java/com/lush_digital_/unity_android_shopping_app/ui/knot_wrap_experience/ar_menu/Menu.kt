@@ -28,7 +28,8 @@ class Menu {
         intent: Intent,
         timoMenu: TimoMenu?,
         pauseButton: Button?,
-        playButton: Button?
+        playButton: Button?,
+        menuButton: Button?
     ) {
 
         val allLoadedKnotWraps = RepoImpl().getKnotwraps(applicationContext)
@@ -59,6 +60,7 @@ class Menu {
                             CALLED_ONCE = true
                             pauseButton?.visibility = View.GONE
                             playButton?.visibility = View.GONE
+                            menuButton?.visibility = View.GONE
                             timoMenu?.dismiss()
                             UnityPlayer.UnitySendMessage("HelloAR Controller", "loadScene", "1")
                         }
@@ -73,6 +75,7 @@ class Menu {
                             CALLED_ONCE = true
                             pauseButton?.visibility = View.GONE
                             playButton?.visibility = View.GONE
+                            menuButton?.visibility = View.GONE
                             timoMenu?.dismiss()
                             UnityPlayer.UnitySendMessage("HelloAR Controller", "loadScene", "2")
                         }
