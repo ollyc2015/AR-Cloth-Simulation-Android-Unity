@@ -7,8 +7,8 @@ I was really intested in figuring out a way of animating complex mesh transforma
 # Outcome
 I am please to say that using this approch I have been able to accomplish all the tasks that I set out to achieve. It is possible to animate using .obj.  
 
-# Features 
+# Features include
 - Change between scenes (animations) using async methods 
 - Dynamically change textures 
 - Change the scale of the animation 
-- play, pause and scrub through the animation using a Seeker Bar
+- Play, pause and scrub through the animation using a Seeker Bar
