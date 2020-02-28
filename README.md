@@ -12,3 +12,6 @@ I am please to say that using this approch I have been able to accomplish all th
 - Dynamically change textures 
 - Change the scale of the animation 
 - Play, pause and scrub through the animation using a Seeker Bar
+
+# Demo
+https://youtu.be/R5tiySgEY8w
